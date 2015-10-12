@@ -1,0 +1,53 @@
+#chart1 svg {
+
+  height: 300px;
+  display:block;
+  margin:auto;
+}
+
+
+
+.body{
+background-color:#D7D8D0;
+  }
+
+.page{
+  margin-top: 35px;
+  border: solid white 13px;
+  background-image: URL(crossword.png) ;
+
+}
+
+.top-row{
+  height: 100%;
+  background-color: #588C73;
+}
+
+.second-row{
+  height: 100%;
+  background-color: #00514A;
+}
+
+.header1{
+  text-align:center;;
+  color:white;
+  font-weight:bold;
+}
+
+.section-header{
+  font-size: 25px;
+  font-weight: bold;
+  color:#588C73;
+  text-align:center;
+}
+
+
+.border-left{
+  border-left: solid 2px;
+  border-color: #00514A;
+}
+
+.chart{
+  display:block;
+  margin:auto;
+}
