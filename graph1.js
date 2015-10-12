@@ -23,7 +23,7 @@ $(".noNum").html(noNum);
 $('.yes').click(function(yesNum){
 
   data[0].value++;
-  data[1].value--;
+
 
   $(".yesNum").html(data[0].value);
   $(".noNum").html(data[1].value);
@@ -46,7 +46,7 @@ $('.yes').click(function(yesNum){
 //on clicking No button
 $('.no').click(function(yesNum){
 
-  data[0].value--;
+  
   data[1].value++;
 
   $(".yesNum").html(data[0].value);
